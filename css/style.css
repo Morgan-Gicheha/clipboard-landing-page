@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree';
+}
+header p{
+    font-size: 20px;
+}
+p{
+    opacity: .8;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.container{
+    margin: 0;
+}
+
+header div{
+    max-width: 800px;
+    margin: 0 auto;
+}
+header img{
+    margin-top: 80px;
+}
+
+
+header{
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+button{
+   width: 220px;
+   padding: 20px;
+   border-radius: 30px;
+   border: none;
+   color: white;
+   font-size: 19px;
+   font-weight: 600;
+    
+}
+button:focus{
+    outline: none;
+}
+.blue:active{
+    transition: .05s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25), 0 10px 10px hsl(233, 100%, 69%);
+}
+.green:active{
+    transition: .05s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25), 0 10px 10px hsl(171, 66%, 44%);
+}
+.green{
+background-color: hsl(171, 66%, 44%);
+margin-right: 5px;
+box-shadow: 0 3px 2px rgba(0,0,0,0.25), 0 10px 10px hsl(171, 66%, 44%);
+}
+
+.blue{
+background-color: hsl(233, 100%, 69%);
+margin-left: 5px;
+box-shadow: 0 3px 2px rgba(0,0,0,0.25), 0 10px 10px hsl(233, 100%, 69%);
+}
+
+
+.out-comp{
+    max-width: 700px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.comp-flex{
+    display: flex;
+}
+
+.comp-flex img{
+flex: 1;
+width: 100%;
+transform: translateX(-60px);
+
+}
+.comp-flex div{
+flex: 1;
+}
+
+.comp-flex div > div{
+    max-width: 450px;
+    width: 100%;
+    line-height: 31px;
+    margin: 0 70px;
+}
+
+.ipad{
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ipad div:first-child{
+    width: 800px;
+    margin: 0 auto;
+}
+.ipad img{
+    margin-bottom: 40px;
+}
+
+.ipad p, .Clipboard ,header p ,.out-comp p{
+    letter-spacing: 2px;
+    line-height: 33px;
+}
+
+.ipad h1, .company h1, .out-comp h1, .Clipboard h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.company .flex{
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 40px;
+}
+.flex h1{
+    font-size: 25px;
+}
+.special{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.flex > div{
+    width: 450px;
+    margin-right: 20px;
+    line-height: 35px;
+    
+}
+.flex img{
+    margin-bottom: 20px;
+}
+
+.tech-companies{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.tech-companies >div{
+    margin: 100px 0;
+    width: 100%;
+}
+
+.Clipboard{
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+.Clipboard button{
+    margin-top: 35px;
+}
+
+footer{
+  
+    
+    margin: 0px auto;
+    margin-top: 100px;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    width: 100%;
+    align-items: center;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 25px;
+}
+.main ul a{
+    color: hsl(210, 10%, 33%);
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.icons{
+    margin-left: 150px;
+}
+
+.icons ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.main ul li{
+    list-style: none;
+    
+
+}
+.main ul li a{
+    text-decoration: none;
+}
+.logo{
+    height: 60px;
+}
+
+.icons img{
+    padding: 0 10px;
+}
