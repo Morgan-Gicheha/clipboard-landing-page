@@ -239,13 +239,6 @@ footer{
 /* mobile design */
 @media screen and (max-width:760px){
 
-    header{
-        background-image: url('../images/bg-header-mobile.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    }
 
     .container{
         width: 100%;
