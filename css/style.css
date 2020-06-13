@@ -16,6 +16,9 @@ p{
     font-weight: 400;
     letter-spacing: 1px;
 }
+.header{
+    width: 100%;
+}
 
 .container{
     margin: 0;
@@ -168,6 +171,7 @@ flex: 1;
 .tech-companies >div{
     margin: 100px 0;
     width: 100%;
+    padding: 20px;
 }
 
 .Clipboard{
@@ -229,4 +233,124 @@ footer{
 
 .icons img{
     padding: 0 10px;
+}
+
+
+/* mobile design */
+@media screen and (max-width:760px){
+    .container{
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .btn-flex > button{
+        display: block;
+        margin: 30px 5px;
+        width: 100%;
+        
+        
+    }
+    
+    .container img{
+        width: 100%;
+    }
+
+    .comp-flex img{
+        height: 100%;
+        transform: translateX(0);
+        
+        }
+
+    .comp-flex{
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+
+
+    }
+    .comp-flex div > div {
+        width: 100%;
+        line-height: 31px;
+        margin: 0 ;
+    }
+    .comp-flex > div{
+        width: 100%;
+    }
+    .ipad{
+        /* max-width: 1500px; */
+        margin: 0 aut;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .ipad img{
+        width: 100%;
+    }
+    .ipad div:first-child{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .company .flex{
+        display: block;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .company img{
+        width: 80px;
+        margin-bottom: 50px;
+    }
+
+    .company .heading:first-child{
+        margin-bottom: 70px;
+    }
+
+    .tech-companies{
+        margin-top: 100px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .tech-companies >div{
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+
+    }
+    .tech-companies img{
+        width: 150px;
+    }
+    .Clipboard h1{
+        line-height: 50px;
+    }
+
+
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        text-align: center;
+        padding-top: 25px;
+        line-height: 40px;
+    }
+
+    footer ul{
+        padding: 0;
+        
+    }
+       
+    .icons{
+        margin: 0 ;
+    }
+    .icons li{
+        margin: 10px;
+    }
 }
